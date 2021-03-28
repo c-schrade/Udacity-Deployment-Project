@@ -83,7 +83,7 @@ def predict_fn(input_data, model):
     data = torch.from_numpy(data_pack)
     data = data.to(device)
 
-    # Make sure to put the model into evaluation mode
+    # Make sure to put the model into evaluation mode.
     model.eval()
 
     # TODO: Compute the result of applying the model to the input data. The variable `result` should
