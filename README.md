@@ -13,5 +13,8 @@ Web-App.
 
 The Web-App can be started by opening the [index.html](index.html)-file in a browser.
 
+Since the Lambda-function and the API-Gateway are deleted now, it is not possible
+to access the trained RNN-model with the Web-App right now.
+
 
 
